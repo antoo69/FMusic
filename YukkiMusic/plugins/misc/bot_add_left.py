@@ -30,12 +30,14 @@ async def on_bot_added(_, message):
                     message.chat.username if message.chat.username else "ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ"
                 )
                 msg = (
-                    f"**Music bot added in new Group #New_Group**\n\n"
-                    f"**Chat Name:** {message.chat.title}\n"
-                    f"**Chat Id:** {message.chat.id}\n"
-                    f"**Chat Username:** @{username}\n"
-                    f"**Chat Member Count:** {count}\n"
-                    f"**Added By:** {message.from_user.mention}"
+                f"🪅 ᴍᴜsɪᴄ ʙᴏᴛ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ\n\n"
+                f"____________________________________\n\n"
+                f"💥 ᴄʜᴀᴛ ɴᴀᴍᴇ: {chat.title}\n"
+                f"📝 ᴄʜᴀᴛ ɪᴅ: {chat.id}\n"
+                f"🤡 ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ: @{chat.username}\n"
+                f"🌸 ᴄʜᴀᴛ ʟɪɴᴋ: [ᴄʟɪᴄᴋ]({link})\n"
+                f"📈 ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs: {count}\n"
+                f"👻 ᴀᴅᴅᴇᴅ ʙʏ: {message.from_user.mention}"
                 )
                 await app.send_message(
                     LOG_GROUP_ID,
