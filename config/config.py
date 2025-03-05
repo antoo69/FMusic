@@ -25,7 +25,7 @@ API_HASH = getenv("API_HASH" "7238067a3532e1501f726a04cdda9f60")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7455796665:AAFWWvemPrbIg2Vw_ETrFZ02SXhQaoKLwE0")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
@@ -57,7 +57,7 @@ EXTRA_PLUGINS_REPO = getenv(
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "90")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "901516415615615465")
 )  # Remember to give value in Minutes
 
 
@@ -96,7 +96,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/Galerifsyrl"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "hhttps://t.me/Night_Shdeeeee"
+    "SUPPORT_GROUP", "hhttps://t.me/BestieVirtual"
 )  # Example:- https://t.me/TheTeamVk
 
 
